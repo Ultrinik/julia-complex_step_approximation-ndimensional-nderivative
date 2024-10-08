@@ -29,6 +29,7 @@ result_fdf = fdf_func(func, x, v, h)
 ```
 
 Calculating the 2nd order directional derivative at a point:
+Keep in mind that the results may not be very accurate.
 ```julia
 include("derivative_approximations.jl")
 
